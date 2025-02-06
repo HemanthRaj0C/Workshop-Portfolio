@@ -468,15 +468,9 @@ function Footer() {
             viewport={{ once: true }}
             className="flex space-x-6 mt-4 md:mt-0"
           >
-            {['GitHub', 'LinkedIn', 'Twitter'].map((platform) => (
-              <a
-                key={platform}
-                href="#"
-                className="text-gray-400 hover:text-cyan-500 transition-colors"
-              >
-                {platform}
-              </a>
-            ))}
+            <a href="https://github.com/RaghulR2023" className="text-cyan-400 hover:text-cyan-300">GitHub</a>
+            <a href="https://www.linkedin.com/in/raghul287" className="text-cyan-400 hover:text-cyan-300">LinkedIn</a>
+            <a href="https://www.instagram.com/_raghul7_/" className="text-cyan-400 hover:text-cyan-300">Instagram</a>
           </motion.div>
         </div>
       </div>
