@@ -1,8 +1,12 @@
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export default function Footer() {
 
-    const date = new Date().getFullYear();
+    const [date, setDate] = useState(null)
+    useEffect(()=>{
+        setDate(new Date().getFullYear())
+    }, [])
 
     return (
       <footer className="bg-gray-900 py-5">
